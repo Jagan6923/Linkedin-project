@@ -1,0 +1,111 @@
+img {
+    height: 38px;
+    width: 150px;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+body {
+    background-color: #f3f2f0;
+
+}
+
+.overall {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.signup-form {
+    background-color: #fff;
+    width: 430px;
+    border-radius: 5px;
+    
+}
+
+
+h2 {
+    padding-bottom: 5px;
+}
+
+.input-fields {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+label{
+    color: rgb(64 64 64);
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    font-weight: 1000;
+    padding-bottom: 7px;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+small{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-small;
+    padding-bottom: 0px;
+}
+.signup-btn {
+    border: 10px;
+    background-color: #0a66c2;
+    color: white;
+    padding: 15px 150px;
+    border-radius: 25px;
+    font-weight: 600;
+    box-shadow: 0 0 0 1px;
+
+}
+
+.signup-btn-div {
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.h4{
+    font-family: 'Open Sans', sans-serif;
+}
+.or{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top:-15px;
+}
+.input-fieldss{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    font-family: 'Open Sans', sans-serif;
+
+}
