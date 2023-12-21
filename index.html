@@ -18,18 +18,18 @@
         <div class="title">
             <h1>Make the most of your professional life</h1>
         </div>
-        <form>
+        <form id="signup">
             <div class="signup-form">
 
                 <div class="input-fields">
                     <label>Email or phone number</label>
 
                     <div class="full-width">
-                        <input type="number" />
+                        <input type="number" name="mob" />
                     </div>
                     <label>Password (6+ charactors)</label>
                     <div class="full-width">
-                        <input type="password" />
+                        <input type="password" name="pass" />
                     </div>
                     <small>By clicking Agree & Join, you agree to the LinkedIn <a
                             href="https://www.linkedin.com/legal/user-agreement?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fin%2Fjeyaraman-s-a19658281%3Ftrk%3Dpublic-profile-join-page&trk=registration-frontend_join-form-user-agreement">
@@ -52,5 +52,9 @@
     </form>
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+<script src="validation.js"></script>
 
 </html>
